@@ -46,3 +46,9 @@ li{
     list-style-type: none;
     text-align: start;
 }
+:hover #press1{
+    opacity: .6;
+}
+:hover #press2{
+    opacity: .6;
+}
