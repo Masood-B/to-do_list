@@ -1,0 +1,48 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.container{
+    width: 30rem;
+    background: grey;
+    text-align: center;
+    padding: .5rem;
+    border: 2px solid black;
+}
+
+.container>*{
+    margin-block: .3rem;
+}
+
+.container #display1{
+    width: 100%;
+    text-align: center;
+    height:2rem;
+}
+
+.in-of2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container #press1, #press2{
+    border-radius: 3rem;
+    width: 10rem;
+    height: 2rem;
+}
+
+li{
+    list-style-type: none;
+    text-align: start;
+}
